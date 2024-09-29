@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "plugin:vue/vue3-essential"
+    ],
+    "rules":{
+      // v:blind:key
+      "vue/require-v-for-key": "off" ,
+      // change value in props
+      "vue/no-mutating-props": "off"
+    }
+}
